@@ -12,8 +12,8 @@
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "ignoreDeprecations": "6.0",
-    "types": ["node"]
+    "types": ["node", "jest"]
   },
-  "include": ["src/**/*", "prisma.config.ts", "generated/**/*"],
+  "include": ["src/**/*", "prisma.config.ts", "generated/**/*", "tests/**/*"],
   "exclude": ["node_modules", "dist", "prisma/**/*"]
 }
