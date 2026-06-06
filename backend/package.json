@@ -2,11 +2,11 @@
   "name": "activeyouths-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "test": "jest --coverage",
     "test:unit": "jest tests/unit --coverage",
     "test:integration": "jest tests/integration"
